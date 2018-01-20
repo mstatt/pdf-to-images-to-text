@@ -1,0 +1,14 @@
+pip install git+https://github.com/jflesch/pyocr.git
+pip install wand
+pip install brew
+brew uninstall freetype imagemagick
+sudo apt install linuxbrew-wrapper
+brew uninstall freetype imagemagick
+brew install gcc
+brew install freetype
+brew link --overwrite freetype
+brew install imagemagick
+pip install pillow
+pip install pytesseract
+pip install opencv-python
+conda install opencv
